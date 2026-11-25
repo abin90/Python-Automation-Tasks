@@ -1,0 +1,6 @@
+{
+    "source_folder": "Company_Documents",
+    "backup_folder": "backups",
+    "max_backups": 3,
+    "incremental_backup": true
+}

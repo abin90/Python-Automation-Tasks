@@ -1,0 +1,42 @@
+{
+    "monitor_folder": "incoming",
+
+    "destination_folder": "processed",
+
+    "file_categories": {
+
+        "Documents": [
+            ".pdf",
+            ".doc",
+            ".docx",
+            ".txt"
+        ],
+
+        "Spreadsheets": [
+            ".xls",
+            ".xlsx",
+            ".csv"
+        ],
+
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif"
+        ],
+
+        "Presentations": [
+            ".ppt",
+            ".pptx"
+        ],
+
+        "Videos": [
+            ".mp4",
+            ".avi",
+            ".mkv"
+        ]
+
+    },
+
+    "default_category": "Others"
+}

@@ -1,0 +1,36 @@
+{
+    "Name": {
+        "required": true
+    },
+
+    "Email": {
+        "required": true,
+        "type": "email"
+    },
+
+    "Age": {
+        "required": true,
+        "type": "integer",
+        "min": 18,
+        "max": 60
+    },
+
+    "Department": {
+        "required": true,
+        "allowed_values": [
+            "HR",
+            "IT",
+            "Finance",
+            "Sales"
+        ]
+    },
+
+    "Phone": {
+        "required": true,
+        "type": "phone"
+    },
+
+    "duplicate_check": [
+        "Email"
+    ]
+}
